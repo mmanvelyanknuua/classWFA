@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "AddBookForm/1.0.0": {
+        "dependencies": {
+          "GoodsLibrary": "1.0.0"
+        },
+        "runtime": {
+          "AddBookForm.dll": {}
+        }
+      },
+      "GoodsLibrary/1.0.0": {
+        "runtime": {
+          "GoodsLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AddBookForm/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GoodsLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

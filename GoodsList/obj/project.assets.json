@@ -1,0 +1,149 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows7.0": {
+      "AddBookForm/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "GoodsLibrary": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/AddBookForm.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AddBookForm.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "AddFoodForm/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "GoodsLibrary": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/AddFoodForm.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AddFoodForm.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "GoodsLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/GoodsLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GoodsLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AddBookForm/1.0.0": {
+      "type": "project",
+      "path": "../AddBookForm/AddBookForm.csproj",
+      "msbuildProject": "../AddBookForm/AddBookForm.csproj"
+    },
+    "AddFoodForm/1.0.0": {
+      "type": "project",
+      "path": "../AddFoodForm/AddFoodForm.csproj",
+      "msbuildProject": "../AddFoodForm/AddFoodForm.csproj"
+    },
+    "GoodsLibrary/1.0.0": {
+      "type": "project",
+      "path": "../GoodsLibrary/GoodsLibrary.csproj",
+      "msbuildProject": "../GoodsLibrary/GoodsLibrary.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0-windows7.0": [
+      "AddBookForm >= 1.0.0",
+      "AddFoodForm >= 1.0.0",
+      "GoodsLibrary >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Misha\\.nuget\\packages\\": {},
+    "D:\\VS\\shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Misha\\Downloads\\GoodsList\\GoodsList\\GoodsListForm.csproj",
+      "projectName": "GoodsListForm",
+      "projectPath": "C:\\Users\\Misha\\Downloads\\GoodsList\\GoodsList\\GoodsListForm.csproj",
+      "packagesPath": "C:\\Users\\Misha\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Misha\\Downloads\\GoodsList\\GoodsList\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "D:\\VS\\shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Misha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {
+            "C:\\Users\\Misha\\Downloads\\GoodsList\\AddBookForm\\AddBookForm.csproj": {
+              "projectPath": "C:\\Users\\Misha\\Downloads\\GoodsList\\AddBookForm\\AddBookForm.csproj"
+            },
+            "C:\\Users\\Misha\\Downloads\\GoodsList\\AddFoodForm\\AddFoodForm.csproj": {
+              "projectPath": "C:\\Users\\Misha\\Downloads\\GoodsList\\AddFoodForm\\AddFoodForm.csproj"
+            },
+            "C:\\Users\\Misha\\Downloads\\GoodsList\\GoodsLibrary\\GoodsLibrary.csproj": {
+              "projectPath": "C:\\Users\\Misha\\Downloads\\GoodsList\\GoodsLibrary\\GoodsLibrary.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

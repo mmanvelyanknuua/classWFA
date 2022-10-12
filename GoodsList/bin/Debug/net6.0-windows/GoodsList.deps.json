@@ -1,0 +1,64 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "GoodsList/1.0.0": {
+        "dependencies": {
+          "AddBookForm": "1.0.0",
+          "AddFoodForm": "1.0.0",
+          "GoodsLibrary": "1.0.0"
+        },
+        "runtime": {
+          "GoodsList.dll": {}
+        }
+      },
+      "AddBookForm/1.0.0": {
+        "dependencies": {
+          "GoodsLibrary": "1.0.0"
+        },
+        "runtime": {
+          "AddBookForm.dll": {}
+        }
+      },
+      "AddFoodForm/1.0.0": {
+        "dependencies": {
+          "GoodsLibrary": "1.0.0"
+        },
+        "runtime": {
+          "AddFoodForm.dll": {}
+        }
+      },
+      "GoodsLibrary/1.0.0": {
+        "runtime": {
+          "GoodsLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GoodsList/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AddBookForm/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AddFoodForm/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GoodsLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
